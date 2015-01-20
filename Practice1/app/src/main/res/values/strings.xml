@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Count My Clicks</string>
+    <string name="btn_click">Register a Click</string>
+    <string name="btn_img">Toggle Image</string>
+    <string name="action_reset">Reset</string>
+    <string name="init_clicks">No Clicks Yet</string>
+    <string name="woof">"WOOF!"</string>
+</resources>

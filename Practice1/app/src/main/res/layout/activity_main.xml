@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="30dp"  >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"  >
+        <Button
+            android:id="@+id/register_click"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_click"  />
+        <Button
+            android:id="@+id/toggle_image"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_img"  />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/click_counter"
+        android:text="@string/init_clicks"
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+        android:textSize="32sp"
+        android:gravity="center"  />
+    <ImageView
+        android:id="@+id/dog"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:visibility="invisible"
+        android:adjustViewBounds="true"
+        android:gravity="center"
+        android:src="@drawable/dog"  />
+    <TextView
+        android:id="@+id/woof"
+        android:text="@string/woof"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:textStyle="bold"
+        android:textSize="32sp" />
+</LinearLayout>
