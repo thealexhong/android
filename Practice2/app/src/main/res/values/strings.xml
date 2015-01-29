@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GLUTTONY</string>
+    <string name="action_new">New List</string>
+
+    <string name="btn_entry">Enter Names</string>
+    <string name="btn_view">View</string>
+    <string name="btn_store">Store</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_exit">Exit</string>
+    <string name="btn_done">&lt;&lt; Done</string>
+    <string name="btn_back">&lt;&lt; Back</string>
+    <string name="btn_add">Add Entry</string>
+    <string name="btn_save">Save</string>
+
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+    <string name="btn_cancel">Cancel</string>
+
+    <string name="msg_addSuccess">Entry successfully added</string>
+    <string name="msg_addInvalid">Invalid entry</string>
+    <string name="msg_addInvalidE">Unable to save entry: %1$s</string>
+    <string name="msg_databaseInvalidLoad">Unable to read existing list(s): %1$s</string>
+    <string name="msg_databaseInvalidStore">Unable to save list: %1$s</string>
+    <string name="msg_databaseSuccessLoad">List %1$s successfully loaded</string>
+    <string name="msg_databaseSuccessStore">List successfully saved</string>
+    <string name="msg_fileInvalid">Invalid filename</string>
+    <string name="msg_writeError">Error writing to file</string>
+    <string name="msg_readError">Error reading from file</string>
+
+    <string name="dialog_unsaved">There are unsaved changes. Are you sure you want to quit?</string>
+    <string name="dialog_unsaved2">There are unsaved changes. Are you sure you want to create a new file?</string>
+
+    <string name="view_databaseDetail">Date: %1$s \t Stored Entries: %2$s</string>
+    <string name="view_myList">File: %1$s</string>
+    <string name="view_filename">File Name</string>
+    <string name="view_name">Name</string>
+    <string name="view_age">Age</string>
+    <string name="view_food">Favourite Food</string>
+
+    <string name="view_company">\@thealexhong &#169; 2015</string>
+    <string name="view_entryHeader">Add My Foodies</string>
+    <string name="view_loadHeader">Load My Foodies</string>
+    <string name="view_storeHeader">Save My Foodies</string>
+    <string name="view_viewHeader">View My Foodies</string>
+    <string name="view_personDetail">Age: %1$s Favorite Food: %2$s</string>
+
+    <string name="edit_name">Enter person\'s name</string>
+    <string name="edit_age">Enter person\'s age</string>
+    <string name="edit_filename">Enter filename</string>
+
+    <string name="edit_food">Select person\'s guilty pleasure</string>
+
+    <string-array name="array_food">
+        <item>Butter Poached Lobster</item>
+        <item>Spicy Linguine</item>
+        <item>Sexy Scrambled Eggs</item>
+        <item>Creamy Gelato</item>
+        <item>Healthy Kimchi</item>
+        <item>Handcraft Nigiri</item>
+        <item>Jiro\'s Sushi</item>
+        <item>Tonkotsu Ramen</item>
+        <item>Handmade Soup Dumplings</item>
+        <item>Mouthwatering Butter Chicken</item>
+        <item>Duck Confit</item>
+        <item>Herb Crusted Rack of Lamb</item>
+        <item>Beef Wellington</item>
+        <item>Filet Mignon</item>
+        <item>Crispy Skin Salmon</item>
+        <item>Chocolate Souffle</item>
+        <item>Green Tea Moose Cake</item>
+        <item>Chocolate Sake Cake</item>
+        <item>Sparkling Croquembouche</item>
+        <item>Bite-size Macaroon</item>
+        <item>Mom\'s Meat Loaf</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:minHeight="@dimen/min_item_height"
+    android:paddingLeft="?android:attr/scrollbarSize"
+    android:paddingRight="?android:attr/scrollbarSize"
+    android:background="@color/c" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/view_listHeader"
+            style="@style/style_listHeader" />
+        <TextView
+            android:id="@+id/view_listDetail"
+            style="@style/style_listDetail" />
+    </LinearLayout>
+</LinearLayout>

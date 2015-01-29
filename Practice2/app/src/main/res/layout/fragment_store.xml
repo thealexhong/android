@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:background="@color/c_dark" >
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+        <LinearLayout
+            android:id="@+id/header_container"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/style_headerContainer">
+            <TextView
+                android:id="@+id/header"
+                android:text="@string/view_storeHeader"
+                style="@style/style_header" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/filename"
+            style="@style/style_textView"
+            android:text="@string/view_filename" />
+        <EditText
+            android:id="@+id/edit_filename"
+            style="@style/style_editText"
+            android:hint="@string/edit_filename"
+            android:inputType="text" >
+            <requestFocus />
+        </EditText>
+    </LinearLayout>
+    <RelativeLayout
+        android:id="@+id/btn_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin">
+        <Button
+            android:id="@+id/btn_save"
+            android:layout_gravity="center_vertical"
+            style="@style/style_btn"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:text="@string/btn_save" />
+        <Button
+            android:id="@+id/btn_cancel"
+            style="@style/style_btn"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:text="@string/btn_cancel" />
+    </RelativeLayout>
+</LinearLayout>

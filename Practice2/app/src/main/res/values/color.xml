@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="c_darker">#261C26</color>
+    <color name="c_dark">#2F242E</color>
+    <color name="c">#3C2A3B</color>
+    <color name="c_text">#BF81BB</color>
+</resources>

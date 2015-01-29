@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/content_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:baselineAligned="false"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:background="@color/c_dark"
+        android:minHeight="@dimen/min_item_height">
+        <LinearLayout
+            android:id="@+id/header_container"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/style_headerContainer">
+            <TextView
+                android:id="@+id/header"
+                android:text="@string/app_name"
+                style="@style/style_header" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/btn_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:layout_weight="10"
+            android:gravity="center"
+            android:minHeight="@dimen/min_item_height"
+            android:orientation="vertical" >
+            <TextView
+                android:id="@+id/view_myList"
+                android:text="@string/view_myList"
+                style="@style/style_textView"
+                android:layout_gravity="center"/>
+            <Button
+                android:id="@+id/btn_entry"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:text="@string/btn_entry" />
+            <Button
+                android:id="@+id/btn_view"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:text="@string/btn_view" />
+            <Button
+                android:id="@+id/btn_store"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:text="@string/btn_store" />
+            <Button
+                android:id="@+id/btn_load"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:text="@string/btn_load" />
+            <Button
+                android:id="@+id/btn_exit"
+                style="@style/style_btn"
+                android:layout_width="match_parent"
+                android:text="@string/btn_exit" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/company"
+            android:text="@string/view_company"
+            android:layout_weight="1"
+            android:gravity="center"
+            style="@style/style_textView"
+            android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

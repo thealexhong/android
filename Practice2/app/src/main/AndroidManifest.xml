@@ -1,24 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.github.thealexhong.practice1" >
+    package="com.github.thealexhong.practice2" >
+
     <application
         android:allowBackup="true"
-        android:icon="@drawable/dog"
+        android:icon="@drawable/ic_gluttony"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
             android:name=".MainActivity"
-            android:screenOrientation="portrait"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <meta-data
-            android:name="com.crashlytics.ApiKey"
-            android:value="16d7852b3685015da785a32527019b83c6e2ef68" />
     </application>
 
-    <uses-permission android:name="android.permission.INTERNET" />
 </manifest>

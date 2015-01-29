@@ -1,34 +1,17 @@
-buildscript {
-    repositories {
-        maven { url 'https://maven.fabric.io/public' }
-    }
-
-    dependencies {
-        classpath 'io.fabric.tools:gradle:1.+'
-    }
-}
 apply plugin: 'com.android.application'
-apply plugin: 'io.fabric'
-
-repositories {
-    maven { url 'https://maven.fabric.io/public' }
-}
-
 
 android {
     compileSdkVersion 21
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.github.thealexhong.practice1"
-        minSdkVersion 15
+        applicationId "com.github.thealexhong.practice2"
+        minSdkVersion 17
         targetSdkVersion 21
         versionCode 1
         versionName "1.0"
     }
-
     signingConfigs {
-
         release {
             storeFile file('thealexhong.keystore')
             storePassword "thealexhong"
@@ -36,12 +19,9 @@ android {
             keyPassword "thealexhong"
         }
     }
-
     buildTypes {
         release {
-            signingConfig signingConfigs.release
             minifyEnabled false
-            zipAlignEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -50,7 +30,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile('com.crashlytics.sdk.android:crashlytics:2.2.0@aar') {
-        transitive = true;
-    }
+    compile files('libs/gson-2.2.4.jar')
+    compile files('libs/guava-18.0.jar')
 }
